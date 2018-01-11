@@ -1,0 +1,23 @@
+{
+  "name": "monorepo-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Evgeny Frolov <evgeny.frolov@softwareplant.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "fav": "yarn workspace fav build",
+    "main": "yarn workspace main build",
+    "ui-util": "yarn workspace ui-util build"
+  },
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "workspaces": [
+    "packages/main",
+    "packages/fav",
+    "packages/ui-util"
+  ],
+  "devDependencies": {
+    "typescript": "2.6.2"
+  }
+}

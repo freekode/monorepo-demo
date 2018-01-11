@@ -1,0 +1,18 @@
+{
+  "name": "fav",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "prepublish": "yarn build",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "ui-util": "1.0.0",
+    "lodash": "2.4.2"
+  },
+  "devDependencies": {
+    "typescript": "2.6.2"
+  }
+}
