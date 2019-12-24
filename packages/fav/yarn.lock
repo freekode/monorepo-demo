@@ -2,6 +2,32 @@
 # yarn lockfile v1
 
 
+event-last-call@^1.0.1:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/event-last-call/-/event-last-call-1.0.9.tgz#3698bdad4244a1231ed0d70e96ff563f3defa5dd"
+  dependencies:
+    jquery "^3.0.0"
+
+jquery@^3.0.0:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
+
+lodash@4.17.15:
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+
 typescript@2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.6.2.tgz#3c5b6fd7f6de0914269027f03c0946758f7673a4"
+
+ui-util@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ui-util/-/ui-util-1.0.0.tgz#af7099276446a66e8aae1a6556114f87763a6ae0"
+  dependencies:
+    event-last-call "^1.0.1"
+    jquery "^3.0.0"
+    url-es5 "^1.0.0"
+
+url-es5@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/url-es5/-/url-es5-1.0.3.tgz#e824eeffb5b09dcfbdc2b8d37dffd580ab9aad17"
